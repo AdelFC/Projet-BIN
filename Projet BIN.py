@@ -284,9 +284,9 @@ for i in range(tpre, pt-1) :
         else: # molecules pas dans la zone : restent en type 0 ou en type 3 et diffusent
             posX[i+1][j], posY[i+1][j] = diffusion(D, posX[i][j], posY[i][j])    
             if (types[i] == 0):
-                cpt_type0 = cpt_type0 +1
+                cpt_type3 = cpt_type3 +1
             else :
-                ct_type3 = cpt_type3 +1
+                ct_type0 = cpt_type0 +1
            
             
 # attribution des valeurs aux conteurs pour chaque temps i
